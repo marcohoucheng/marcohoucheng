@@ -1,5 +1,11 @@
 ### Hi there 👋
 
+I am a secound year MSc Computer Sciene student at UNIPD (University of Padua), I am expected to graduate in summer 2025.
+
+In the coming months, I will start making my university work public as well as uploading everything else that I am working on.
+
+Marco
+
 <!--
 **marcohoucheng/marcohoucheng** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
