@@ -2,7 +2,9 @@
 
 I am a secound year MSc Computer Sciene student at UNIPD (University of Padua), I am expected to graduate in summer 2024.
 
-In the coming months, I will start making my university work public as well as uploading everything else that I am working on.
+I'm currently working on a [project](https://github.com/marcohoucheng/Gran-Turismo-7-Price-Tracker) updating the daily shops in game, alone with my university exams and thesis work.
+
+In the coming months, I will also start making my university work public as well as uploading everything else that I am working on.
 
 Marco
 
