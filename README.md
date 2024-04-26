@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Marco Lam</h1>
 <h3 align="center">A final year MSc Computer Science student at University of Padua</h3>
 
-- 🔭 I’m currently working on [Computer Vision model to predict Brain Tumor Segmentation](https://github.com/marcohoucheng/Brain-Tumor-Segmentation-with-Computer-Vision)
+- 🔭 I’m currently working on [a Computer Vision model to predict Brain Tumor Segmentation](https://github.com/marcohoucheng/Brain-Tumor-Segmentation-with-Computer-Vision)
 
 - 🌱 I’m currently learning **Rust and Swift**
 
