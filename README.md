@@ -13,7 +13,7 @@
 
 - 📫 How to reach me **marcohoucheng@gmail.com**
 
-- 📄 Know about my experiences [https://github.com/marcohoucheng/marcohoucheng/blob/main/Resume.pdf](https://github.com/marcohoucheng/marcohoucheng/blob/main/Resume.pdf)
+- 📄 Know about my experiences [Resume](https://github.com/marcohoucheng/marcohoucheng/blob/main/Resume.pdf)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
