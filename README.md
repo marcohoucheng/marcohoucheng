@@ -22,5 +22,5 @@
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left">
-<img src="https://skillicons.dev/icons?i=c,cpp,rust,swift,python,pytorch,tensorflow,sklearn,opencv,matplotlib,mps,django,mysql,githubactions,aws,javascript,r,matlab" />
+<img src="https://skillicons.dev/icons?i=c,cpp,rust,swift,python,pytorch,tensorflow,sklearn,opencv,django,mysql,githubactions,aws,javascript,r,matlab" />
 </p>
