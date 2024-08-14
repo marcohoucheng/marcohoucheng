@@ -1,13 +1,13 @@
 <h1 align="center">Hi 👋, I'm Marco Lam</h1>
-<h3 align="center">A final year MSc Computer Science student at University of Padua</h3>
+<h3 align="center">A recent MSc Computer Science graduate at University of Padua</h3>
 
-- 🔭 I’m currently working on [a Computer Vision model to predict Brain Tumor Segmentation](https://github.com/marcohoucheng/Brain-Tumor-Segmentation-with-Computer-Vision)
+- 🌱 I am currently learing Swift to develop MacOS and iOS apps.
 
-- 🌱 I’m currently learning **Rust and Swift**
+- 🔭 My most recent Deep Learning project on [a Computer Vision model for brain tumor segmentation](https://github.com/marcohoucheng/Brain-Tumor-Segmentation-with-Computer-Vision)
 
-- 📝 I’m also writing my thesis on [Algorithmic Approach to 15-Minute City](https://github.com/marcohoucheng/Algorithmic-Approach-to-15-Minute-City)
+- 📝 My masters' thesis on [An Algorithmic Approach to the 15-Minute City](https://github.com/marcohoucheng/Algorithmic-Approach-to-15-Minute-City)
 
-- 🎮 Check out my latest project [Gran Turismo 7 Price Tracker](https://github.com/marcohoucheng/Gran-Turismo-7-Price-Tracker)
+- 🎮 Check out my latest personal project [Gran Turismo 7 Price Tracker](https://github.com/marcohoucheng/Gran-Turismo-7-Price-Tracker)
 
 - 👨‍💻 All of my projects are available at [https://github.com/marcohoucheng/](https://github.com/marcohoucheng/)
 
