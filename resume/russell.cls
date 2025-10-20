@@ -83,7 +83,7 @@
 %-------------------------------------------------------------------------------
 %% Page Layout
 % Configure page margins with geometry
-\geometry{left=2.0cm, top=1.5cm, right=2.0cm, bottom=2.0cm, footskip=.5cm}
+\geometry{left=2.0cm, top=1.5cm, right=2.0cm, bottom=1.5cm, footskip=.5cm}
 
 %% Header & Footer
 % Set offset to each header and footer
@@ -387,7 +387,7 @@
 
 % Others
 \newcommand{\acvSectionTopSkip}{5mm}
-\newcommand{\acvSectionContentTopSkip}{2mm}
+\newcommand{\acvSectionContentTopSkip}{1mm}
 
 
 %-------------------------------------------------------------------------------
@@ -623,7 +623,7 @@
   \end{center}
 }
 % Define an entry of cv information
-% Usage: \cventry{<position>}{<title>}{<location>}{<date>}{<description>}
+% Usage: \cventry{<title>}{<organisation>}{<location>}{<date>}{<description>}
 \newcommand*{\cventry}[5]{%
   \vspace{3.0mm}
   \setlength\tabcolsep{0pt}
@@ -631,10 +631,53 @@
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
     \ifempty{#2#3}
       {\entrypositionstyle{#1} & \entrydatestyle{#4} \\}
-      {\entrytitlestyle{#2} & \entrylocationstyle{#3} \\
-      \entrypositionstyle{#1} & \entrydatestyle{#4} \\}
+      {\entrytitlestyle{#1} & \entrylocationstyle{#3} \\
+      \entrypositionstyle{#2} & \entrydatestyle{#4} \\}
     \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#5}}
   \end{tabular*}%
+}
+
+% Define an environment for project entries
+\newenvironment{cvprojectentries}{%
+  \vspace{\acvSectionContentTopSkip}
+  \begin{center}
+}{%
+  \end{center}
+}
+% Define a custom entry for Project titles and dates
+% Usage: \cvprojectentry{<title>}{<date>}
+\newcommand*{\cvprojectentry}[3]{%
+  \vspace{3.0mm}
+  \setlength\tabcolsep{0pt}
+  \setlength{\extrarowheight}{0pt}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
+    % Row 1: Title (Left) vs. Date (Right)
+    \entrytitlestyle{#1} & \entrydatestyle{#2} \\
+    \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#3}}
+  \end{tabular*}%
+}
+
+% Define an environment for education entries
+\newenvironment{cveducationentries}{%
+  \vspace{\acvSectionContentTopSkip}
+  \begin{center}
+}{%
+  \end{center}
+}
+
+% Define a custom entry for Education sections
+% Usage: \cveducationentry[4]{<degree>}{<university>}{<time period>}{<grade/details>}
+\newcommand*{\cveducationentry}[4]{%
+  \vspace{3.0mm}
+  \setlength\tabcolsep{0pt}
+  \setlength{\extrarowheight}{0pt}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 3cm} R{3cm}}
+    % Row 1: Degree + University (Left) vs. Time Period (Right)
+    \entrytitlestyle{#1, \entrypositionstyle{#2}} & \entrydatestyle{#3} \\ 
+    % Row 2: Grade/Details (Left)
+    \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#4}}
+  \end{tabular*}
+  \\%
 }
 
 % Define an environment for cvsubentry
@@ -691,6 +734,7 @@
 }{%
     \end{tabular*}
   \end{center}
+  \vspace{-5.0mm}
 }
 % Define a line of cv information(skill)
 % Usage: \cvskill{<type>}{<skillset>}
