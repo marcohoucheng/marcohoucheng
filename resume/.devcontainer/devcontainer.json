@@ -1,0 +1,11 @@
+{
+  "name": "TeX DevContainer",
+  "build": { "dockerfile": "Dockerfile" },
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "remoteUser": "root",
+  "extensions": [
+    "James-Yu.latex-workshop"
+  ]
+}
