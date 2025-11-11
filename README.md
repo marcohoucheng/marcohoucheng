@@ -1,26 +1,36 @@
 <h1 align="center">Hi 👋, I'm Marco Lam</h1>
-<h3 align="center">A recent MSc Computer Science graduate at University of Padua</h3>
+<h3 align="center">Machine Learning Engineer | MSc Computer Science, University of Padua</h3>
 
-- 🌱 I am currently learing Swift to develop MacOS and iOS apps.
+- 💼 Currently working as a **Machine Learning Engineer at [Vaultree](https://vaultree.com/)**, developing GPU-accelerated and privacy-preserving ML systems using **Rust, CUDA, and Fully Homomorphic Encryption (FHE)**.
 
-- 🔭 My most recent Deep Learning project on [a Computer Vision model for brain tumor segmentation](https://github.com/marcohoucheng/Brain-Tumor-Segmentation-with-Computer-Vision)
+- 🧠 Built and [published](https://pypi.org/project/venumML/) a **Python–Rust library** integrating PyO3, Maturin, and GitHub Actions for automated builds and releases.
 
-- 📝 My masters' thesis on [An Algorithmic Approach to the 15-Minute City](https://github.com/marcohoucheng/Algorithmic-Approach-to-15-Minute-City)
+- 🔒 Designed and deployed **end-to-end Encrypted ML environments** with **PyTorch, Terraform, Docker, and GCP**, focusing on security and reproducibility.
 
-- 🎮 Check out my latest personal project [Gran Turismo 7 Price Tracker](https://github.com/marcohoucheng/Gran-Turismo-7-Price-Tracker)
+- 🔍 My latest research project: [Computer Vision model for Brain Tumor Segmentation](https://github.com/marcohoucheng/Brain-Tumor-Segmentation-with-Computer-Vision)
 
-- 👨‍💻 All of my projects are available at [https://github.com/marcohoucheng/](https://github.com/marcohoucheng/)
+- 📖 My MSc thesis: [An Algorithmic Approach to the 15-Minute City](https://github.com/marcohoucheng/Algorithmic-Approach-to-15-Minute-City)
 
-- 📫 How to reach me **marcohoucheng@gmail.com**
+- 🎮 Personal project: [Gran Turismo 7 Price Tracker](https://github.com/marcohoucheng/Gran-Turismo-7-Price-Tracker)
 
-- 📄 Know about my experiences [Resume](https://github.com/marcohoucheng/marcohoucheng/blob/main/Resume.pdf)
+- 📨 Reach me at **marcohoucheng@gmail.com**
+
+- 📜 View my [Resume](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/marcohoucheng/marcohoucheng/main/resume/resume.pdf)
 
 <h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/marcohoucheng" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="marcohoucheng" height="30" width="40" /></a>
+<p align="center">
+  <a>
+    <img
+      src="https://go-skill-icons.vercel.app/api/icons?i=gmail,linkedin,github"
+    />
+  </a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
-<p align="left">
-<img src="https://skillicons.dev/icons?i=c,cpp,rust,swift,python,pytorch,tensorflow,sklearn,opencv,django,mysql,githubactions,aws,javascript,r,matlab" />
+<p align="center">
+  <a>
+    <img
+      src="https://go-skill-icons.vercel.app/api/icons?i=rust,python,cuda,pytorch,tensorflow,sklearn,opencv,numpy,pandas,pyspark,pytest,c,cpp,git,githubactions,gcp,aws,linux,ubuntu,terraform,docker,fastapi,latex,toml,mysql,matlab,r&perline=9"
+    />
+  </a>
 </p>
