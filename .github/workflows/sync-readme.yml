@@ -1,4 +1,4 @@
-name: Sync README to marcohoucheng.github.io
+name: Convert README to index.html and deploy
 
 on:
   push:
@@ -15,10 +15,16 @@ jobs:
       - name: Checkout source repo
         uses: actions/checkout@v4
 
+      - name: Install pandoc (for Markdown → HTML)
+        run: sudo apt-get update && sudo apt-get install -y pandoc
+
       - name: Clone target repo
         run: |
           git clone https://github.com/marcohoucheng/marcohoucheng.github.io.git target_repo
-          cp README.md target_repo/index.md
+
+      - name: Convert README.md → index.html
+        run: |
+          pandoc README.md -o target_repo/index.html --standalone --metadata title="Home"
 
       - name: Commit and push changes
         run: |
@@ -26,6 +32,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add index.md
-          git commit -m "Sync README → index.md from main repo" || echo "No changes to commit"
+          git add index.html
+          git commit -m "Update index.html from README.md" || echo "No changes to commit"
           git push https://marcohoucheng:${{ secrets.GH_PAT }}@github.com/marcohoucheng/marcohoucheng.github.io.git HEAD:main
