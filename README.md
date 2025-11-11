@@ -7,7 +7,7 @@
   </a>
 </p>
 
-<h1 align="center">Hi 👋, I'm Marco Lam</h1>
+<h1 align="center">Hi I'm Marco Lam 👋</h1>
 <h3 align="center">Machine Learning Engineer | MSc Computer Science, University of Padua</h3>
 
 - 💼 Currently working as a **Machine Learning Engineer at [Vaultree](https://vaultree.com/)**, developing GPU-accelerated and privacy-preserving ML systems using **Rust, CUDA, and Fully Homomorphic Encryption (FHE)**.
