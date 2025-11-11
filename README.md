@@ -1,3 +1,12 @@
+<p align="right">
+  <a>
+    <img
+      src="https://go-skill-icons.vercel.app/api/icons?i=gmail,linkedin,github"
+      style="width: 110px; height: auto;"
+    />
+  </a>
+</p>
+
 <h1 align="center">Hi 👋, I'm Marco Lam</h1>
 <h3 align="center">Machine Learning Engineer | MSc Computer Science, University of Padua</h3>
 
@@ -17,20 +26,11 @@
 
 - 📜 View my [Resume](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/marcohoucheng/marcohoucheng/main/resume/resume.pdf)
 
-<h3 align="left">Connect with me:</h3>
-<p align="center">
-  <a>
-    <img
-      src="https://go-skill-icons.vercel.app/api/icons?i=gmail,linkedin,github"
-    />
-  </a>
-</p>
-
 <h3 align="left">Languages and Tools:</h3>
 <p align="center">
   <a>
     <img
-      src="https://go-skill-icons.vercel.app/api/icons?i=rust,python,cuda,pytorch,tensorflow,sklearn,opencv,numpy,pandas,pyspark,pytest,c,cpp,git,githubactions,gcp,aws,linux,ubuntu,terraform,docker,fastapi,latex,toml,mysql,matlab,r&perline=9"
+      src="https://go-skill-icons.vercel.app/api/icons?i=rust,python,cuda,nvidia,pytorch,tensorflow,sklearn,opencv,numpy,pandas,pyspark,pytest,c,cpp,git,githubactions,gcp,aws,linux,ubuntu,terraform,docker,fastapi,latex,toml,mysql,matlab,r&perline=14"
     />
   </a>
 </p>
