@@ -1,2 +1,3 @@
-theme: null
-markdown: kramdown
+theme: jekyll-theme-minimal
+include:
+  - assets/css/custom.css
